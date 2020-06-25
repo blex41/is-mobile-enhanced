@@ -8,12 +8,12 @@ This is a wrapper around the [isMobile](https://github.com/kaimallea/isMobile) p
 
 ### In NodeJS:
 
->If you're using NodeJS, definitely don't use this. Use the [original `isMobile` lib][isMobile](https://github.com/kaimallea/isMobile). And if you need a `Class` method too, get some inspiration from the 7 lines of code [here](./src/index.js).
+>If you're using NodeJS, definitely don't use this. Use the [original `isMobile` lib](https://github.com/kaimallea/isMobile). And if you need a `Class` method too, get some inspiration from the 7 lines of code [here](./src/index.js).
 
 ### In a browser:
 
 ```html
-<script src="https://cdn.jsdeliver.net/gh/blex41/is-mobile-enhanced/dist/ismobile.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/blex41/is-mobile-enhanced@1.0.0/dist/ismobile.min.js"></script>
 
 <script>
 window.isMobile; // Current browser's mobile detection properties
