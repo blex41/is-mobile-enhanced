@@ -1,0 +1,26 @@
+{
+  "name": "is-mobile-enhanced",
+  "version": "1.0.0",
+  "description": "Wrapper for isMobile",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.js --global isMobile --out-file ismobile.min.js --experimental-scope-hoisting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blex41/is-mobile-enhanced.git"
+  },
+  "keywords": [],
+  "author": "blex41",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blex41/is-mobile-enhanced/issues"
+  },
+  "homepage": "https://github.com/blex41/is-mobile-enhanced#readme",
+  "dependencies": {
+    "ismobilejs": "^1.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
