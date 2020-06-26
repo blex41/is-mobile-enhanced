@@ -8,7 +8,11 @@ const isMobile = (function() {
   return {
     ...isMobileFunction(),
     Class(params) {
-      const safeParams = typeof params === "string" ? { userAgent: params } : params;
+      const safeParams = typeof params === "string" ? {
+        platform: navigator.platform,
+        maxTouchPoints: navigator.maxTouchPoints || 0,
+        userAgent: params
+      } : params;
       Object.assign(isMobile, isMobileFunction(safeParams));
     }
   }
