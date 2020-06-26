@@ -8,7 +8,8 @@ const isMobile = (function() {
   return {
     ...isMobileFunction(),
     Class(params) {
-      Object.assign(isMobile, isMobileFunction(params));
+      const safeParams = typeof params === "string" ? { userAgent: params } : params;
+      Object.assign(isMobile, isMobileFunction(safeParams));
     }
   }
 })();
