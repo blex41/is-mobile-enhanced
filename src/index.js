@@ -13,4 +13,4 @@ const isMobile = (function() {
   }
 })();
 
-module.exports = isMobile;
+window.isMobile = isMobile;

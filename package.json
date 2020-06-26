@@ -4,7 +4,7 @@
   "description": "Wrapper for isMobile",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build src/index.js --global isMobile --out-file ismobile.min.js --experimental-scope-hoisting"
+    "build": "parcel build src/index.js --global isMobile --out-file ismobile.min.js --experimental-scope-hoisting --no-source-maps"
   },
   "repository": {
     "type": "git",

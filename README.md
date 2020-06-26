@@ -13,7 +13,7 @@ This is a wrapper around the [isMobile](https://github.com/kaimallea/isMobile) p
 ### In a browser:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/blex41/is-mobile-enhanced@1.0.0/dist/ismobile.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/blex41/is-mobile-enhanced@1.0.1/dist/ismobile.min.js"></script>
 
 <script>
 window.isMobile; // Current browser's mobile detection properties
